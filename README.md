@@ -3,6 +3,10 @@
 
 [![Build Status](https://travis-ci.org/alibaba/fish-redux.svg?branch=master)](https://travis-ci.org/alibaba/fish-redux) [![pub package](https://img.shields.io/pub/v/fish_redux.svg)](https://pub.dartlang.org/packages/fish_redux) [![codecov](https://codecov.io/gh/alibaba/fish-redux/branch/master/graph/badge.svg)](https://codecov.io/gh/alibaba/fish-redux)
 
+## 2020-12-18 修補
+ - 修正多個item 同時更新 state 時無法正常顯示更新後的狀態 (lib/src/redux_adapter/source_flow_adapter.dart)
+ - 修正重複發送給Effect (lib/src/redux_component/helper.dart)
+
 ## What is Fish Redux ?
 
 Fish Redux is an assembled flutter application framework based on Redux state management.
